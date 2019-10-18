@@ -1,0 +1,11 @@
+<form method="post">
+	{% csrf_token %}
+	Role No : <input type="text" name="rollno"><br/>
+	Name No : <input type="text" name="name">
+
+	<input type="radio" name="stream" value="Medical" checked> Medical <br/>
+	<input type="radio" name="stream" value="Non Medical"> Non Medica <br/>
+	<input type="radio" name="stream" value="Commerce"> Commerce <br/>
+
+	<input type="submit" value="send">
+</form>
